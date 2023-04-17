@@ -1,0 +1,23 @@
+{
+    "name": "ghoostoy/larka",
+    "description": "test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GhoosToy",
+            "email": "vertuassss@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+       "php": "^7.4 | ^8.0"
+   },
+   "autoload": {
+       "psr-4": {
+           "Src\\": "core/Src/",
+           "": "app/"
+       }
+   }
+
+}
