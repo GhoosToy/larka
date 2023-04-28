@@ -30,4 +30,9 @@ private array $_settings;
     {
         return '/' . $this->path['views'] ?? '';
     }
+    public function getDbSetting(): array
+    {
+        return $this->db ?? [];
+    }
+
 }
